@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nothing to do in Toowoomba? Actually, there's one thing.</title>
+<meta name="description" content="Bored in Toowoomba? Things to do in Toowoomba this week — a simple meetup for locals aged 18–25. No event, no plan, just a place and a time.">
+<meta name="keywords" content="things to do in Toowoomba, bored in Toowoomba, nothing to do in Toowoomba, Toowoomba events, Toowoomba meetup, Toowoomba this weekend, young adults Toowoomba">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #14171a;
+    --ink-soft: #1d2126;
+    --paper: #ece6d9;
+    --paper-dim: #b9b2a2;
+    --brass: #b9905a;
+    --rule: #333a41;
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 3rem;
+  }
+
+  .kicker {
+    font-size: 0.95rem;
+    color: var(--paper-dim);
+    margin: 0 0 2.25rem;
+    max-width: 30ch;
+  }
+
+  h1 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: clamp(2.1rem, 6vw, 3rem);
+    line-height: 1.18;
+    margin: 0 0 1.5rem;
+    max-width: 14ch;
+  }
+
+  .lede {
+    font-size: 1.05rem;
+    max-width: 42ch;
+    margin: 0 0 3.5rem;
+    color: #d9d2c4;
+  }
+
+  .lede strong {
+    color: var(--paper);
+    font-weight: 600;
+  }
+
+  section.slot {
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  section.slot:last-of-type {
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 3rem;
+  }
+
+  .slot-label {
+    font-size: 0.9rem;
+    color: var(--paper-dim);
+    margin: 0 0 0.9rem;
+  }
+
+  .slot-main {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.5rem, 4.5vw, 1.9rem);
+    line-height: 1.35;
+    margin: 0 0 0.5rem;
+    color: var(--paper);
+  }
+
+  .slot-main .place {
+    display: block;
+  }
+
+  .slot-main .when {
+    display: block;
+    color: var(--brass);
+  }
+
+  .slot-note {
+    font-size: 0.95rem;
+    color: #a8a196;
+    margin: 0.75rem 0 0;
+    max-width: 40ch;
+  }
+
+  .tbc {
+    font-style: italic;
+    color: #b9b2a2;
+  }
+
+  footer {
+    font-size: 0.85rem;
+    color: #756f64;
+    max-width: 40ch;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .wrap { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <p class="kicker">Toowoomba, but something's actually on.</p>
+
+  <h1>Actually something to do in Toowoomba.</h1>
+
+  <p class="lede">
+    One meetup. No plan, no host, no agenda — <strong>just a place and a time</strong>.
+    You show up, and whatever happens, happens. For locals aged <strong>18–25</strong>.
+  </p>
+
+  <!-- ================================================================ -->
+  <!-- EDIT ME 1: the current confirmed meetup.                          -->
+  <!-- Replace the text inside the two <span> tags below.                -->
+  <!-- ================================================================ -->
+  <section class="slot">
+    <p class="slot-label">This week</p>
+    <p class="slot-main">
+      <span class="place">Queens Park, the main lawn</span>
+      <span class="when">Saturday 27 September, 6pm</span>
+    </p>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- EDIT ME 2: the next meetup, while it's still unconfirmed.          -->
+  <!-- Replace the date inside the <span class="when"> tag below with    -->
+  <!-- the date you'll have the next one confirmed by.                   -->
+  <!-- ================================================================ -->
+  <section class="slot">
+    <p class="slot-label">Next</p>
+    <p class="slot-main">
+      <span class="place tbc">Location and time to be confirmed</span>
+      <span class="when">by Wednesday 1 October</span>
+    </p>
+    <p class="slot-note">Check back after that date, or just check this page again — it only ever says two things.</p>
+  </section>
+
+  <footer>
+    Run by a local. Updated by hand, not an algorithm.
+  </footer>
+
+</div>
+
+</body>
+</html>
